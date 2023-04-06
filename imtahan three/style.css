@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(43, 42, 42);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+  color: white;
+}
+header div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header div span a {
+  color: white;
+  transition: 0.5s all;
+}
+header div span a:hover {
+  color: rgb(103, 90, 240);
+}
+header div a:nth-child(3) {
+  transition: 0.5s all;
+}
+header div a:nth-child(3):hover {
+  transform: scale(1.25);
+}
+
+.px53 {
+  width: 35px;
+  height: 20px;
+}
+
+body {
+  background: #30333D;
+}
+
+.main {
+  width: 94%;
+  margin: 60px;
+  height: 2500px;
+  background: #302B2B;
+  box-shadow: 0px 0px 32px -3px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+.main .bas {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.main .bas .droplu {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FFFFFF;
+}
+.main .bas .dropsuz {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #BCBCBC;
+}
+
+.inputs {
+  display: flex;
+  margin-top: 46px;
+}
+.inputs .ad {
+  width: 869px;
+  height: 58px;
+  background: #393535;
+  border-radius: 10px;
+  margin-left: 77px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 18px;
+}
+.inputs .ad::-moz-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 18px;
+}
+.inputs .ad::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 18px;
+}
+.inputs .img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 905px;
+  top: 329px;
+}
+
+.imgtwo {
+  margin-left: 270px;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding-top: 100px;
+}
+
+.sekil {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.sual {
+  padding-top: 49px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 77px;
+  margin-right: 77px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.true {
+  margin-left: 77px;
+  padding-top: 7px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.cavablar {
+  margin-left: 77px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+.cavablar .cavablar1 {
+  width: 595px;
+  height: 58px;
+  background: #393535;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.cavablar .cavablar2 {
+  width: 595px;
+  height: 58px;
+  background: #393535;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.cavablar .cavablar3 {
+  width: 595px;
+  height: 58px;
+  background: #393535;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.cavablar .cavablar4 {
+  width: 595px;
+  height: 58px;
+  background: #393535;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+textarea {
+  width: 595px;
+  height: 217px;
+  resize: none;
+  background-image: url(../images/image\ 47.svg);
+  background-size: 30%;
+  margin-left: 77px;
+  margin-top: 20px;
+  background-color: #302B2B;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 32px -3px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  background-position: 20px 20px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 219px;
+  height: 58px;
+  background: #675AF0;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  border: none;
+  color: #FFFFFF;
+  transition: 0.5s all;
+  margin-top: 115px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
